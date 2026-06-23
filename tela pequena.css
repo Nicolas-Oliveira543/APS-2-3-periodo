@@ -1,0 +1,12 @@
+body{
+    width: 419px;
+    margin: auto;
+}
+h1,h2,p{
+    max-width: 419px;
+    max-height: 419px;
+}
+img{
+    max-width: 419px;
+    max-height: 419px;
+}

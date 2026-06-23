@@ -1,0 +1,15 @@
+table{
+    border: 1px solid #036;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+}
+.especial{
+    background-color: #036;
+    color: white;
+    border: 1px solid white;
+}
+.especial2{
+    background-color: #036;
+    color: white;
+}

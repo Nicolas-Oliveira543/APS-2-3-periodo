@@ -1,0 +1,30 @@
+body{
+    width: 1080px;
+    margin: auto;
+}
+.grande{
+    display: block;
+}
+.media,.pequena{
+    display: none;
+}
+article{
+    width: 320px;
+    float: left;
+    margin: auto;
+    text-align: justify;
+}
+article img{
+    max-width: 100%;
+}
+article:nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+article:nth-child(3) img{
+    margin-bottom: 21.5%;
+}
+article:nth-child(1){
+    width: 30%;
+    float: left;
+}

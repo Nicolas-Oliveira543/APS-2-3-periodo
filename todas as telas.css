@@ -1,0 +1,18 @@
+body{
+    width: 419px;
+    margin: auto;
+}
+.grande,.media{
+    display: none;
+}
+.pequena{
+    display: block;
+}
+article{
+    max-width: 419px;
+    max-height: 419px;
+}
+article img{
+    max-width: 419px;
+    max-height: 419px;
+}

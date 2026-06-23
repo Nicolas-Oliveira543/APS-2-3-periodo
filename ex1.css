@@ -1,0 +1,33 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+img{
+    float: left;
+}
+h1{
+    text-align: right;
+    color: #909;
+}
+hr{
+    border: 1px solid #909;
+}
+div{
+    margin: auto;
+    text-align: left;
+    padding-right: 60%;
+}
+input{
+    background-color: #FCC;
+    border: 1px solid white;
+}
+.larger{
+    border: 10px solid transparent;
+}
+fieldset{
+    border: 2px solid #FCC;
+    margin-left: 10%;
+}
+label{
+    margin: 10px;
+}

@@ -1,0 +1,60 @@
+body{
+    width: 1000px;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+nav{
+    width: 220px;
+    float: left;
+}
+aside{
+    width: 220px;
+    float: right;
+}
+aside h4{
+    text-align: right;
+    color: lightgreen;
+}
+main{
+    width: 500px;
+    float: left;
+}
+footer{
+    clear: both;
+    text-align: center;
+}
+.verde{
+    border: 10px solid lightgreen;
+}
+.noticia2{
+    border: 1px solid lightgreen;
+}
+.noticia{
+    color: black;
+}
+.mais{
+    text-align: right;
+    color: darkred;
+}
+header h1{
+    background-color: black;
+    color: white;
+}
+.endereco{
+    color: white;
+    background-color: black;
+}
+.titulo{
+    color: black;
+}
+#hrT{
+    border: 1px solid black;
+}
+#pT{
+    text-align: right;
+}
+.hrN{
+    border: 1px solid black;
+}

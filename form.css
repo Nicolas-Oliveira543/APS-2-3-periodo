@@ -1,0 +1,10 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+hr{
+    border: solid black 1px;
+}
+#nome input{
+    border: solid 10px;
+}
