@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Aparecida Nutrição</title>
+	<link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<h2 class="titulo">Aparecida Nutrição</h2>
+		</div>
+	</header>
+	<main>
+		<section class="container">
+			<h2>Meus pacientes</h2>
+			<div>
+				<label for="filtrar-tabela">filtro</label>
+				<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Peso(kg)</th>
+						<th>Altura(m)</th>
+						<th>Gordura Corporal(%)</th>
+						<th>IMC</th>
+					</tr>
+				</thead>
+				<tbody id="tabela-pacientes">
+					<tr class="paciente" id="paciente-1">
+						<td class="info-nome">Paulo</td>
+						<td class="info-peso">100</td>
+						<td class="info-altura">2.00</td>
+						<td class="info-gordura">10</td>
+						<td class="info-imc">0</td>
+					</tr>
+
+					<tr class="paciente" id="paciente-2">
+						<td class="info-nome">João</td>
+						<td class="info-peso">80</td>
+						<td class="info-altura">1.72</td>
+						<td class="info-gordura">40</td>
+						<td class="info-imc">0</td>
+					</tr>
+
+					<tr class="paciente" id="paciente-3">
+						<td class="info-nome">Erica</td>
+						<td class="info-peso">54</td>
+						<td class="info-altura">1.64</td>
+						<td class="info-gordura">14</td>
+						<td class="info-imc">0</td>
+					</tr>
+
+					<tr class="paciente" id="paciente-4">
+						<td class="info-nome">Douglas</td>
+						<td class="info-peso">85</td>
+						<td class="info-altura">1.73</td>
+						<td class="info-gordura">24</td>
+						<td class="info-imc">0</td>
+					</tr>
+					<tr class="paciente" id="paciente-5">
+						<td class="info-nome">Tatiana</td>
+						<td class="info-peso">46</td>
+						<td class="info-altura">1.55</td>
+						<td class="info-gordura">19</td>
+						<td class="info-imc">0</td>
+					</tr>
+				</tbody>
+			</table>
+			<button id="buscar-pacientes">Buscar Pacientes</button>
+
+		</section>
+		<h1>Adicionar novo paciente</h1>
+		<hr>
+
+		<form action="" id="Forma-adiciona">
+			<table>
+				<tr>
+					<td>
+						<label for="nome" class="form">Nome: </label>
+						<input type="text" id="nome" name="nome" class="form" size="198">
+					</td>
+					</tr>
+					<tr>
+						<td><label for="peso" class="form">Peso: </label>
+							<input type="number" id="peso" name="peso" placeholder="Digite o nome do seu paciente"
+								class="form" size="25">
+						</td>
+						<td><label for="altura" class="form">Altura: </label>
+							<input type="number" id="altura" name="altura" placeholder="Digite o peso do seu paciente"
+								class="form" size="25">
+						</td>
+						<td><label for="gordura" class="form">% de gordura: </label>
+							<input type="number" id="gordura" name="gordura"
+								placeholder="Digite a porcentagem de gordura do seu paciente" class="form" size="25">
+						</td>
+					</tr>
+				</table>
+				<button id="adicionar-paciente" class="form">Adicionar</button>
+	</main>
+	<script src="js/principal.js"></script>
+	<script src="js/form adicionado.js"></script>
+	<script src="js/remover-paciente.js"></script>
+	<script src="js/filtra.js"></script>
+	<script src="js/buscar-paciente.js"></script>
+
+	<!--metodo alternativo e mais simplificado (principal.js sem modificação da tabela)-->
+	<!-- 
+		<script src="js/segundo.js"></script>
+		<script src="js/terceiro.js"></script>
+		<script src="js/quarto.js"></script>
+		<script src="js/quinto.js"></script> -->
+
+</body>
+
+</html>
